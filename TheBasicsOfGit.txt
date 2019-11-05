@@ -1,0 +1,34 @@
+Important Files:
+README.md, very standard and common file included with projects to show and explain to readers how to Setup, Use, Etc. Written in Markdown Language.
+.gitignore, a text file containing the names of all of the project files/directories that you want git to ignore.
+            examples: app.js, or test.java, or /directory2
+
+
+Git Commands:
+git --version, Displays the current version of Git installed.
+git init, initializes a .git folder in the current directory folder, first command to start a new git project.
+git config --global user.name 'Enter Name', sets username to Enter Name.
+git config --global userer.email 'email@myemail', sets email to myemail.
+git add <file name>, adds the named file as a tracked file by git.
+        *.<File Extension>, adds all files in the current directory with the named file extension.
+        ., Adds all files.
+git rm --cached <Insert File Name>, removes the file from being tracked.
+git status, displays the status of the current git repository, which files have been added for tracking but not committed, files that are not tracked, etc.
+git commit -m 'INSERT MESSAGE HERE', commits the saved changes to the currently tracked files and directories with the added message.
+git branch   <Branch Name>, creates a branch with the given branch name (if the branch did not exist)
+git checkout <Branch Name>, switches from the current branch to the branch that is named.
+git merge    <Branch Name>, merges the named sub-branch with the super-branch above it.
+git remote add origin https://github.com/AveryHall/SampleRepository.git, You can use a command like this to add a remote repository to an existing local one
+git push -u origin master, pushes the existing local repository to the remote one (i.e. on Github).
+        , pushes the updated local repository to the remote one (i.e. Github).
+
+
+
+MINGGW64 Commands:
+set x = soAndSo, assigns the value soAndSo to new variable x.
+pwd, shows the current directory.
+cd  <Insert Path Here>, changes the directory to the current path.
+    ../, goes back in the directory level by one.
+dir, lists the contents of the current directory.
+touch <file name>, creates a file with the given name in the current directory if it doesn't already exist.
+clear, clears the window.
