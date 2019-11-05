@@ -18,7 +18,7 @@ git commit -m 'INSERT MESSAGE HERE', commits the saved changes to the currently 
 git branch   <Branch Name>, creates a branch with the given branch name (if the branch did not exist)
 git checkout <Branch Name>, switches from the current branch to the branch that is named.
 git merge    <Branch Name>, merges the named sub-branch with the super-branch above it.
-git remote add origin https://github.com/AveryHall/SampleRepository.git, You can use a command like this to add a remote repository to an existing local one
+git remote add origin https://github.com/AveryHall/SampleRepository.git, You can use a command like this to add a remote repository to an existing local one (Note: Will have to provide valid Login credentials for Github, at least in this case)
 git push -u origin master, pushes the existing local repository to the remote one (i.e. on Github).
         , pushes the updated local repository to the remote one (i.e. Github).
 git pull, pull the latest from the remote repository to a local one.
